@@ -1,0 +1,2 @@
+# nuxt-practice
+nuxt practice
