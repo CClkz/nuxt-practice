@@ -1,5 +1,5 @@
 <template>
-  <div>axios</div>
+  <div>axios {{title}}</div>
 </template>
 
 <script lang="ts">
@@ -16,8 +16,8 @@ export default Vue.extend({
   //   },
 //   async await
   async asyncData({ params, $axios }) {
-    const res = await $axios.get(`https://my-api/posts/${params.id}`)
-    return { title: res.data.title }
+    // const res = await $axios.get(`https://my-api/posts/${params.id}`)
+    return { title: "title" }
   },
 })
 </script>
